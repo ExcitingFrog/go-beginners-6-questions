@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>JSON · GitBook</title>
+        <title>Web sockets · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="the_gob_package.html" />
+    <link rel="next" href="web_socket_server.html" />
     
     
-    <link rel="prev" href="asn1.html" />
+    <link rel="prev" href="../networkchannels/channels_of_channels.html" />
     
 
     </head>
@@ -508,9 +508,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="./">
+        <li class="chapter " data-level="1.5" data-path="../dataserialisation/">
             
-                <a href="./">
+                <a href="../dataserialisation/">
             
                     
                     Data Serialisation
@@ -522,9 +522,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="mutual_agreement.html">
+        <li class="chapter " data-level="1.5.1" data-path="../dataserialisation/mutual_agreement.html">
             
-                <a href="mutual_agreement.html">
+                <a href="../dataserialisation/mutual_agreement.html">
             
                     
                     Mutual agreement
@@ -535,9 +535,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.2" data-path="self_describing_data.html">
+        <li class="chapter " data-level="1.5.2" data-path="../dataserialisation/self_describing_data.html">
             
-                <a href="self_describing_data.html">
+                <a href="../dataserialisation/self_describing_data.html">
             
                     
                     Self-describing data
@@ -548,9 +548,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="asn1.html">
+        <li class="chapter " data-level="1.5.3" data-path="../dataserialisation/asn1.html">
             
-                <a href="asn1.html">
+                <a href="../dataserialisation/asn1.html">
             
                     
                     ASN.1
@@ -561,9 +561,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5.4" data-path="json.html">
+        <li class="chapter " data-level="1.5.4" data-path="../dataserialisation/json.html">
             
-                <a href="json.html">
+                <a href="../dataserialisation/json.html">
             
                     
                     JSON
@@ -574,9 +574,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.5" data-path="the_gob_package.html">
+        <li class="chapter " data-level="1.5.5" data-path="../dataserialisation/the_gob_package.html">
             
-                <a href="the_gob_package.html">
+                <a href="../dataserialisation/the_gob_package.html">
             
                     
                     The gob package
@@ -587,9 +587,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.6" data-path="encoding_binary_data_as_strings.html">
+        <li class="chapter " data-level="1.5.6" data-path="../dataserialisation/encoding_binary_data_as_strings.html">
             
-                <a href="encoding_binary_data_as_strings.html">
+                <a href="../dataserialisation/encoding_binary_data_as_strings.html">
             
                     
                     Encoding binary data as strings
@@ -1426,9 +1426,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.16" data-path="../websockets/">
+        <li class="chapter active" data-level="1.16" data-path="./">
             
-                <a href="../websockets/">
+                <a href="./">
             
                     
                     Web sockets
@@ -1440,9 +1440,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.16.1" data-path="../websockets/web_socket_server.html">
+        <li class="chapter " data-level="1.16.1" data-path="web_socket_server.html">
             
-                <a href="../websockets/web_socket_server.html">
+                <a href="web_socket_server.html">
             
                     
                     Web socket server
@@ -1453,9 +1453,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.16.2" data-path="../websockets/the_message_object.html">
+        <li class="chapter " data-level="1.16.2" data-path="the_message_object.html">
             
-                <a href="../websockets/the_message_object.html">
+                <a href="the_message_object.html">
             
                     
                     The Message object
@@ -1466,9 +1466,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.16.3" data-path="../websockets/the_json_object.html">
+        <li class="chapter " data-level="1.16.3" data-path="the_json_object.html">
             
-                <a href="../websockets/the_json_object.html">
+                <a href="the_json_object.html">
             
                     
                     The JSON object
@@ -1479,9 +1479,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.16.4" data-path="../websockets/the_codec_type.html">
+        <li class="chapter " data-level="1.16.4" data-path="the_codec_type.html">
             
-                <a href="../websockets/the_codec_type.html">
+                <a href="the_codec_type.html">
             
                     
                     The Codec type
@@ -1492,9 +1492,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.16.5" data-path="../websockets/web_sockets_over_tls.html">
+        <li class="chapter " data-level="1.16.5" data-path="web_sockets_over_tls.html">
             
-                <a href="../websockets/web_sockets_over_tls.html">
+                <a href="web_sockets_over_tls.html">
             
                     
                     Web sockets over TLS
@@ -1540,7 +1540,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >JSON</a>
+        <a href=".." >Web sockets</a>
     </h1>
 </div>
 
@@ -1555,288 +1555,20 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="json">JSON</h2>
-<p>JSON stands for JavaScript Object Notation. It was designed to be a lightweight means of passing data between JavaScript systems. It uses a text-based format and is sufficiently general that it has become used as a general purpose serialisation method for many programming languages.</p>
-<p>JSON serialises objects, arrays and basic values. The basic values include string, number, boolean values and the null value. Arrays are a comma-separated list of values that can represent arrays, vectors, lists or sequences of various programming languages. They are delimited by square brackets <code>[ ... ]</code>. Objects are represented by a list of &quot;field: value&quot; pairs enclosed in curly braces <code>{ ... }</code>.</p>
-<p>For example, the table of employees given earlier could be written as an array of employee objects:</p>
-<pre><code>[
-   {Name: fred, Occupation: programmer},
-   {Name: liping, Occupation: analyst},
-   {Name: sureerat, Occupation: manager}
-]
-</code></pre><p>There is no special support for complex data types such as dates, no distinction between number types, no recursive types, etc. JSON is a very simple language, but nevertheless can be quite useful. Its text-based format makes it easy for people to use, even though it has the overheads of string handling.</p>
-<p>From the Go JSON package specification, marshalling uses the following type-dependent default encodings:</p>
-<ul>
-<li>Boolean values encode as JSON booleans.</li>
-<li>Floating point and integer values encode as JSON numbers.</li>
-<li>String values encode as JSON strings, with each invalid UTF-8 sequence replaced by the encoding of the Unicode replacement character U+FFFD.</li>
-<li>Array and slice values encode as JSON arrays, except that []byte encodes as a base64-encoded string.</li>
-<li>Struct values encode as JSON objects. Each struct field becomes a member of the object. By default the object&apos;s key name is the struct field name converted to lower case. If the struct field has a tag, that tag will be used as the name instead.</li>
-<li>Map values encode as JSON objects. The map&apos;s key type must be string; the object keys are used directly as map keys.</li>
-<li>Pointer values encode as the value pointed to. (Note: this allows trees, but not graphs!). A nil pointer  encodes as the null JSON object.</li>
-<li>Interface values encode as the value contained in the interface. A nil interface value encodes as the null  JSON object.</li>
-<li>Channel, complex, and function values cannot be encoded in JSON. Attempting to encode such a value cause Marshal to return an <code>InvalidTypeError</code>.</li>
-<li>JSON cannot represent cyclic data structures and Marshal does not handle them. Passing cyclic structures to Marshal will result in an infinite recursion.</li>
-</ul>
-<p>A program to store JSON serialised data into a file is</p>
-<pre><code class="lang-go"><span class="hljs-comment">/* SaveJSON
- */</span>
-
-<span class="hljs-keyword">package</span> main
-
-<span class="hljs-keyword">import</span> (
-    <span class="hljs-string">&quot;encoding/json&quot;</span>
-    <span class="hljs-string">&quot;fmt&quot;</span>
-    <span class="hljs-string">&quot;os&quot;</span>
-)
-
-<span class="hljs-keyword">type</span> Person <span class="hljs-keyword">struct</span> {
-    Name  Name
-    Email []Email
-}
-
-<span class="hljs-keyword">type</span> Name <span class="hljs-keyword">struct</span> {
-    Family   <span class="hljs-keyword">string</span>
-    Personal <span class="hljs-keyword">string</span>
-}
-
-<span class="hljs-keyword">type</span> Email <span class="hljs-keyword">struct</span> {
-    Kind    <span class="hljs-keyword">string</span>
-    Address <span class="hljs-keyword">string</span>
-}
-
-<span class="hljs-keyword">func</span> main() {
-    person := Person{
-        Name: Name{Family: <span class="hljs-string">&quot;Newmarch&quot;</span>, Personal: <span class="hljs-string">&quot;Jan&quot;</span>},
-        Email: []Email{Email{Kind: <span class="hljs-string">&quot;home&quot;</span>, Address: <span class="hljs-string">&quot;jan@newmarch.name&quot;</span>},
-            Email{Kind: <span class="hljs-string">&quot;work&quot;</span>, Address: <span class="hljs-string">&quot;j.newmarch@boxhill.edu.au&quot;</span>}}}
-
-    saveJSON(<span class="hljs-string">&quot;person.json&quot;</span>, person)
-}
-
-<span class="hljs-keyword">func</span> saveJSON(fileName <span class="hljs-keyword">string</span>, key <span class="hljs-keyword">interface</span>{}) {
-    outFile, err := os.Create(fileName)
-    checkError(err)
-    encoder := json.NewEncoder(outFile)
-    err = encoder.Encode(key)
-    checkError(err)
-    outFile.Close()
-}
-
-<span class="hljs-keyword">func</span> checkError(err error) {
-    <span class="hljs-keyword">if</span> err != <span class="hljs-literal">nil</span> {
-        fmt.Println(<span class="hljs-string">&quot;Fatal error &quot;</span>, err.Error())
-        os.Exit(<span class="hljs-number">1</span>)
-    }
-}
-</code></pre>
-<p>and to load it back into memory is</p>
-<pre><code class="lang-go"><span class="hljs-comment">/* LoadJSON
- */</span>
-
-<span class="hljs-keyword">package</span> main
-
-<span class="hljs-keyword">import</span> (
-    <span class="hljs-string">&quot;encoding/json&quot;</span>
-    <span class="hljs-string">&quot;fmt&quot;</span>
-    <span class="hljs-string">&quot;os&quot;</span>
-)
-
-<span class="hljs-keyword">type</span> Person <span class="hljs-keyword">struct</span> {
-    Name  Name
-    Email []Email
-}
-
-<span class="hljs-keyword">type</span> Name <span class="hljs-keyword">struct</span> {
-    Family   <span class="hljs-keyword">string</span>
-    Personal <span class="hljs-keyword">string</span>
-}
-
-<span class="hljs-keyword">type</span> Email <span class="hljs-keyword">struct</span> {
-    Kind    <span class="hljs-keyword">string</span>
-    Address <span class="hljs-keyword">string</span>
-}
-
-<span class="hljs-keyword">func</span> (p Person) String() <span class="hljs-keyword">string</span> {
-    s := p.Name.Personal + <span class="hljs-string">&quot; &quot;</span> + p.Name.Family
-    <span class="hljs-keyword">for</span> _, v := <span class="hljs-keyword">range</span> p.Email {
-        s += <span class="hljs-string">&quot;\n&quot;</span> + v.Kind + <span class="hljs-string">&quot;: &quot;</span> + v.Address
-    }
-    <span class="hljs-keyword">return</span> s
-}
-<span class="hljs-keyword">func</span> main() {
-    <span class="hljs-keyword">var</span> person Person
-    loadJSON(<span class="hljs-string">&quot;person.json&quot;</span>, &amp;person)
-
-    fmt.Println(<span class="hljs-string">&quot;Person&quot;</span>, person.String())
-}
-
-<span class="hljs-keyword">func</span> loadJSON(fileName <span class="hljs-keyword">string</span>, key <span class="hljs-keyword">interface</span>{}) {
-    inFile, err := os.Open(fileName)
-    checkError(err)
-    decoder := json.NewDecoder(inFile)
-    err = decoder.Decode(key)
-    checkError(err)
-    inFile.Close()
-}
-
-<span class="hljs-keyword">func</span> checkError(err error) {
-    <span class="hljs-keyword">if</span> err != <span class="hljs-literal">nil</span> {
-        fmt.Println(<span class="hljs-string">&quot;Fatal error &quot;</span>, err.Error())
-        os.Exit(<span class="hljs-number">1</span>)
-    }
-}
-</code></pre>
-<p>The serialised form is (formatted nicely)</p>
-<pre><code>{&quot;Name&quot;:{&quot;Family&quot;:&quot;Newmarch&quot;,
-         &quot;Personal&quot;:&quot;Jan&quot;},
- &quot;Email&quot;:[{&quot;Kind&quot;:&quot;home&quot;,&quot;Address&quot;:&quot;jan@newmarch.name&quot;},
-          {&quot;Kind&quot;:&quot;work&quot;,&quot;Address&quot;:&quot;j.newmarch@boxhill.edu.au&quot;}
-         ]
-}
-</code></pre><h3 id="a-client-and-server">A client and server</h3>
-<p>A client to send a person&apos;s data and read it back ten times is</p>
-<pre><code class="lang-go"><span class="hljs-comment">/* JSON EchoClient
- */</span>
-<span class="hljs-keyword">package</span> main
-
-<span class="hljs-keyword">import</span> (
-    <span class="hljs-string">&quot;fmt&quot;</span>
-    <span class="hljs-string">&quot;net&quot;</span>
-    <span class="hljs-string">&quot;os&quot;</span>
-    <span class="hljs-string">&quot;encoding/json&quot;</span>
-    <span class="hljs-string">&quot;bytes&quot;</span>
-    <span class="hljs-string">&quot;io&quot;</span>
-)
-
-<span class="hljs-keyword">type</span> Person <span class="hljs-keyword">struct</span> {
-    Name  Name
-    Email []Email
-}
-
-<span class="hljs-keyword">type</span> Name <span class="hljs-keyword">struct</span> {
-    Family   <span class="hljs-keyword">string</span>
-    Personal <span class="hljs-keyword">string</span>
-}
-
-<span class="hljs-keyword">type</span> Email <span class="hljs-keyword">struct</span> {
-    Kind    <span class="hljs-keyword">string</span>
-    Address <span class="hljs-keyword">string</span>
-}
-
-<span class="hljs-keyword">func</span> (p Person) String() <span class="hljs-keyword">string</span> {
-    s := p.Name.Personal + <span class="hljs-string">&quot; &quot;</span> + p.Name.Family
-    <span class="hljs-keyword">for</span> _, v := <span class="hljs-keyword">range</span> p.Email {
-        s += <span class="hljs-string">&quot;\n&quot;</span> + v.Kind + <span class="hljs-string">&quot;: &quot;</span> + v.Address
-    }
-    <span class="hljs-keyword">return</span> s
-}
-
-<span class="hljs-keyword">func</span> main() {
-    person := Person{
-        Name: Name{Family: <span class="hljs-string">&quot;Newmarch&quot;</span>, Personal: <span class="hljs-string">&quot;Jan&quot;</span>},
-        Email: []Email{Email{Kind: <span class="hljs-string">&quot;home&quot;</span>, Address: <span class="hljs-string">&quot;jan@newmarch.name&quot;</span>},
-            Email{Kind: <span class="hljs-string">&quot;work&quot;</span>, Address: <span class="hljs-string">&quot;j.newmarch@boxhill.edu.au&quot;</span>}}}
-
-    <span class="hljs-keyword">if</span> <span class="hljs-built_in">len</span>(os.Args) != <span class="hljs-number">2</span> {
-        fmt.Println(<span class="hljs-string">&quot;Usage: &quot;</span>, os.Args[<span class="hljs-number">0</span>], <span class="hljs-string">&quot;host:port&quot;</span>)
-        os.Exit(<span class="hljs-number">1</span>)
-    }
-    service := os.Args[<span class="hljs-number">1</span>]
-
-    conn, err := net.Dial(<span class="hljs-string">&quot;tcp&quot;</span>, service)
-    checkError(err)
-
-    encoder := json.NewEncoder(conn)
-    decoder := json.NewDecoder(conn)
-
-    <span class="hljs-keyword">for</span> n := <span class="hljs-number">0</span>; n &lt; <span class="hljs-number">10</span>; n++ {
-        encoder.Encode(person)
-        <span class="hljs-keyword">var</span> newPerson Person
-        decoder.Decode(&amp;newPerson)
-        fmt.Println(newPerson.String())
-    }
-
-    os.Exit(<span class="hljs-number">0</span>)
-}
-
-<span class="hljs-keyword">func</span> checkError(err error) {
-    <span class="hljs-keyword">if</span> err != <span class="hljs-literal">nil</span> {
-        fmt.Println(<span class="hljs-string">&quot;Fatal error &quot;</span>, err.Error())
-        os.Exit(<span class="hljs-number">1</span>)
-    }
-}
-</code></pre>
-<p>and the corresponding server is</p>
-<pre><code class="lang-go"><span class="hljs-comment">/* JSON EchoServer
- */</span>
-<span class="hljs-keyword">package</span> main
-
-<span class="hljs-keyword">import</span> (
-    <span class="hljs-string">&quot;fmt&quot;</span>
-    <span class="hljs-string">&quot;net&quot;</span>
-    <span class="hljs-string">&quot;os&quot;</span>
-    <span class="hljs-string">&quot;encoding/json&quot;</span>
-)
-
-<span class="hljs-keyword">type</span> Person <span class="hljs-keyword">struct</span> {
-    Name  Name
-    Email []Email
-}
-
-<span class="hljs-keyword">type</span> Name <span class="hljs-keyword">struct</span> {
-    Family   <span class="hljs-keyword">string</span>
-    Personal <span class="hljs-keyword">string</span>
-}
-
-<span class="hljs-keyword">type</span> Email <span class="hljs-keyword">struct</span> {
-    Kind    <span class="hljs-keyword">string</span>
-    Address <span class="hljs-keyword">string</span>
-}
-
-<span class="hljs-keyword">func</span> (p Person) String() <span class="hljs-keyword">string</span> {
-    s := p.Name.Personal + <span class="hljs-string">&quot; &quot;</span> + p.Name.Family
-    <span class="hljs-keyword">for</span> _, v := <span class="hljs-keyword">range</span> p.Email {
-        s += <span class="hljs-string">&quot;\n&quot;</span> + v.Kind + <span class="hljs-string">&quot;: &quot;</span> + v.Address
-    }
-    <span class="hljs-keyword">return</span> s
-}
-
-<span class="hljs-keyword">func</span> main() {
-
-    service := <span class="hljs-string">&quot;0.0.0.0:1200&quot;</span>
-    tcpAddr, err := net.ResolveTCPAddr(<span class="hljs-string">&quot;tcp&quot;</span>, service)
-    checkError(err)
-
-    listener, err := net.ListenTCP(<span class="hljs-string">&quot;tcp&quot;</span>, tcpAddr)
-    checkError(err)
-
-    <span class="hljs-keyword">for</span> {
-        conn, err := listener.Accept()
-        <span class="hljs-keyword">if</span> err != <span class="hljs-literal">nil</span> {
-            <span class="hljs-keyword">continue</span>
-        }
-
-        encoder := json.NewEncoder(conn)
-        decoder := json.NewDecoder(conn)
-
-        <span class="hljs-keyword">for</span> n := <span class="hljs-number">0</span>; n &lt; <span class="hljs-number">10</span>; n++ {
-            <span class="hljs-keyword">var</span> person Person
-            decoder.Decode(&amp;person)
-            fmt.Println(person.String())
-            encoder.Encode(person)
-        }
-        conn.Close() <span class="hljs-comment">// we&apos;re finished</span>
-    }
-}
-
-<span class="hljs-keyword">func</span> checkError(err error) {
-    <span class="hljs-keyword">if</span> err != <span class="hljs-literal">nil</span> {
-        fmt.Println(<span class="hljs-string">&quot;Fatal error &quot;</span>, err.Error())
-        os.Exit(<span class="hljs-number">1</span>)
-    }
-}
-</code></pre>
+                                <h1 id="chapter-15-web-sockets">Chapter 15 Web sockets</h1>
+<p>Web sockets are designed to answer a common problem with web systems: the server is unable to initiate or push content to a user agent such as a browser. Web sockets allow a full duplex connection to be established to allow this. Go has nearly complete support for them.</p>
+<h2 id="warning">Warning</h2>
+<p>The Web Sockets package is not currently in the <a href="https://github.com/golang/go" _target="blank">main Go 1.x tree</a> and is not included in the current distributions. To use it, you need to install it by </p>
+<pre><code>go get golang.org/x/net/websocket
+</code></pre><h2 id="introduction">Introduction</h2>
+<p>(Note: The websockets model changed in release r61 of Go 1.0. This describes the current package.)</p>
+<p>The standard model of interaction between a web user agent such as a browser and a web server such as Apache is that the user agent makes HTTP requests and the server makes a single reply to each one. In the case of a browser, the request is made by clicking on a link, entering a URL into the address bar, clicking on the forward or back buttons, etc. The response is treated as a new page and is loaded into a browser window.</p>
+<p>This traditional model has many drawbacks. The first is that each request opens and closes a new TCP connection. HTTP 1.1 solved this by allowing persistent connections, so that a connection could be held open for a short period to allow for multiple requests (e.g. for images) to be made on the same server.</p>
+<p>While HTTP 1.1 persistent connections alleviate the problem of slow loading of a page with many graphics, it does not improve the interaction model. Even with forms, the model is still that of submitting the form and displaying the response as a new page. JavaScript helps in allowing error checking to be performed on form data before submission, but does not change the model.</p>
+<p>AJAX (Asynchronous JavaScript and XML) made a significant advance to the user interaction model. This allows a browser to make a request and just use the response to update the display in place using the HTML Document Object Model (DOM). But again the interaction model is the same. AJAX just affects how the browser manages the returned pages. There is no explicit extra support in Go for AJAX, as none is needed: the HTTP server just sees an ordinary HTTP POST request with possibly some XML or JSON data, and this can be dealt with using techniques already discussed.</p>
+<p>All of these are still browser to server communication. What is missing is server initiated communications to the browser. This can be filled by Web sockets: the browser (or any user agent) keeps open a long-lived TCP connection to a Web sockets server. The TCP connection allows either side to send arbitrary packets, so any application protocol can be used on a web socket.</p>
+<p>How a websocket is started is by the user agent sending a special HTTP request that says &quot;switch to web sockets&quot;. The TCP connection underlying the HTTP request is kept open, but both user agent and server switch to using the web sockets protocol instead of getting an HTTP response and closing the socket.</p>
+<p>Note that it is still the browser or user agent that initiates the Web socket connection. The browser does not run a TCP server of its own. While the specification is <a href="http://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-17" _target="blank">complex</a>, the protocol is designed to be fairly easy to use. The client opens an HTTP connection and then replaces the HTTP protocol with its own WS protocol, re-using the same TCP connection.</p>
 
                                 
                                 </section>
@@ -1864,12 +1596,12 @@
 
             
                 
-                <a href="asn1.html" class="navigation navigation-prev " aria-label="Previous page: ASN.1">
+                <a href="../networkchannels/channels_of_channels.html" class="navigation navigation-prev " aria-label="Previous page: Channels of channels">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="the_gob_package.html" class="navigation navigation-next " aria-label="Next page: The gob package">
+                <a href="web_socket_server.html" class="navigation navigation-next " aria-label="Next page: Web socket server">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1880,7 +1612,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"JSON","level":"1.5.4","depth":2,"next":{"title":"The gob package","level":"1.5.5","depth":2,"path":"dataserialisation/the_gob_package.md","ref":"dataserialisation/the_gob_package.md","articles":[]},"previous":{"title":"ASN.1","level":"1.5.3","depth":2,"path":"dataserialisation/asn1.md","ref":"dataserialisation/asn1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"3.0.x","theme":"default","variables":{},"plugins":["-sharing","katex@1.1.3","edit-link@2.0.x","github@2.0.x"],"pluginsConfig":{"edit-link":{"base":"https://github.com/tumregels/Network-Programming-with-Go/edit/master","label":"Edit"},"github":{"url":"https://github.com/tumregels/Network-Programming-with-Go"},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":14,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"toc":true},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"dataserialisation/json.md","mtime":"2020-03-09T13:33:11.740Z","type":"markdown"},"gitbook":{"version":"3.0.3","time":"2020-03-09T14:42:51.086Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Web sockets","level":"1.16","depth":1,"next":{"title":"Web socket server","level":"1.16.1","depth":2,"path":"websockets/web_socket_server.md","ref":"websockets/web_socket_server.md","articles":[]},"previous":{"title":"Channels of channels","level":"1.15.4","depth":2,"path":"networkchannels/channels_of_channels.md","ref":"networkchannels/channels_of_channels.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"3.0.x","theme":"default","variables":{},"plugins":["-sharing","katex@1.1.3","edit-link@2.0.x","github@2.0.x"],"pluginsConfig":{"edit-link":{"base":"https://github.com/tumregels/Network-Programming-with-Go/edit/master","label":"Edit"},"github":{"url":"https://github.com/tumregels/Network-Programming-with-Go"},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":14,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"toc":true},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"websockets/README.md","mtime":"2020-03-09T13:33:11.744Z","type":"markdown"},"gitbook":{"version":"3.0.3","time":"2020-03-09T14:42:51.086Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

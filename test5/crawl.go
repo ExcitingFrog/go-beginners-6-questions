@@ -28,7 +28,7 @@ func main() {
 		//	fmt.Println(string(e.Body))
 		filename := e.Request.URL.Path
 		print(filename)
-		fout, err := os.Create(path.Base(filename) + ".html")
+		fout, err := os.Create("/home/vagrant/go/src/train1/test5/page/" + path.Base(filename))
 		if err != nil {
 			fmt.Println(filename + " create error")
 		}

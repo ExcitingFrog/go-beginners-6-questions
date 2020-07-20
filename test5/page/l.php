@@ -1,0 +1,1 @@
+<html><head><meta charset="utf-8" /></head><body><script type="text/javascript" nonce="TKJYFQZv">document.location.replace("http:\/\/www.aboutads.info\/choices\/");</script></body></html>

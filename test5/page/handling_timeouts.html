@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Pipelines · GitBook</title>
+        <title>Handling Timeouts · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="defining_functions.html" />
+    <link rel="next" href="channels_of_channels.html" />
     
     
-    <link rel="prev" href="inserting_object_values.html" />
+    <link rel="prev" href="channel_client.html" />
     
 
     </head>
@@ -1045,9 +1045,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10" data-path="./">
+        <li class="chapter " data-level="1.10" data-path="../templates/">
             
-                <a href="./">
+                <a href="../templates/">
             
                     
                     Templates
@@ -1059,9 +1059,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.10.1" data-path="inserting_object_values.html">
+        <li class="chapter " data-level="1.10.1" data-path="../templates/inserting_object_values.html">
             
-                <a href="inserting_object_values.html">
+                <a href="../templates/inserting_object_values.html">
             
                     
                     Inserting object values
@@ -1072,9 +1072,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.10.2" data-path="pipelines.html">
+        <li class="chapter " data-level="1.10.2" data-path="../templates/pipelines.html">
             
-                <a href="pipelines.html">
+                <a href="../templates/pipelines.html">
             
                     
                     Pipelines
@@ -1085,9 +1085,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.3" data-path="defining_functions.html">
+        <li class="chapter " data-level="1.10.3" data-path="../templates/defining_functions.html">
             
-                <a href="defining_functions.html">
+                <a href="../templates/defining_functions.html">
             
                     
                     Defining functions
@@ -1098,9 +1098,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.4" data-path="variables.html">
+        <li class="chapter " data-level="1.10.4" data-path="../templates/variables.html">
             
-                <a href="variables.html">
+                <a href="../templates/variables.html">
             
                     
                     Variables
@@ -1111,9 +1111,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.5" data-path="conditional_statements.html">
+        <li class="chapter " data-level="1.10.5" data-path="../templates/conditional_statements.html">
             
-                <a href="conditional_statements.html">
+                <a href="../templates/conditional_statements.html">
             
                     
                     Conditional statements
@@ -1355,9 +1355,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.15" data-path="../networkchannels/">
+        <li class="chapter " data-level="1.15" data-path="./">
             
-                <a href="../networkchannels/">
+                <a href="./">
             
                     
                     Network channels
@@ -1369,9 +1369,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.15.1" data-path="../networkchannels/channel_server.html">
+        <li class="chapter " data-level="1.15.1" data-path="channel_server.html">
             
-                <a href="../networkchannels/channel_server.html">
+                <a href="channel_server.html">
             
                     
                     Channel server
@@ -1382,9 +1382,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.15.2" data-path="../networkchannels/channel_client.html">
+        <li class="chapter " data-level="1.15.2" data-path="channel_client.html">
             
-                <a href="../networkchannels/channel_client.html">
+                <a href="channel_client.html">
             
                     
                     Channel client
@@ -1395,9 +1395,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.15.3" data-path="../networkchannels/handling_timeouts.html">
+        <li class="chapter active" data-level="1.15.3" data-path="handling_timeouts.html">
             
-                <a href="../networkchannels/handling_timeouts.html">
+                <a href="handling_timeouts.html">
             
                     
                     Handling Timeouts
@@ -1408,9 +1408,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.15.4" data-path="../networkchannels/channels_of_channels.html">
+        <li class="chapter " data-level="1.15.4" data-path="channels_of_channels.html">
             
-                <a href="../networkchannels/channels_of_channels.html">
+                <a href="channels_of_channels.html">
             
                     
                     Channels of channels
@@ -1540,7 +1540,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Pipelines</a>
+        <a href=".." >Handling Timeouts</a>
     </h1>
 </div>
 
@@ -1555,12 +1555,22 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="pipelines">Pipelines</h2>
-<p>The above transformations insert pieces of text into a template. Those pieces of text are essentially arbitrary, whatever the string values of the fields are. If we want them to appear as part of an HTML document (or other specialised form) then we will have to escape particular sequences of characters. For example, to display arbitrary text in an HTML document we have to change <code>&quot;&lt;&quot;</code> to <code>&quot;&amp;lt;&quot;</code>. The Go templates have a number of builtin functions, and one of these is the function html. These functions act in a similar manner to Unix pipelines, reading from standard input and writing to standard output.</p>
-<p>To take the value of the current object <code>&apos;.&apos;</code> and apply HTML escapes to it, you write a &quot;pipeline&quot; in the template</p>
-<pre><code>{{. | html}}
-</code></pre><p>and similarly for other functions.</p>
-<p>Mike Samuel has pointed out a convenience function currently in the <code>exp/template/html</code> package. If all of the entries in a template need to be passed through the html template function, then the Go function <code>Escape(t *template.Template)</code> can take a template and add the <code>html</code> function to each node in the template that doesn&apos;t already have one. This will be useful for templates used for HTML documents and can form a pattern for similar function uses elsewhere. </p>
+                                <h2 id="handling-timeouts">Handling Timeouts</h2>
+<p>Because these channels use the network, there is alwasy the possibility of network errors leading to <a href="http://blog.golang.org/2010/09/go-concurrency-patterns-timing-out-and.html" _target="blank">timeouts</a>. 
+Andrew Gerrand points out a solution using timeouts: &quot;[Set up a timeout channel.] We can then use a select statement to receive from either ch or timeout. If nothing arrives on ch after one second, the timeout case is selected and the attempt to read from ch is abandoned.&quot;</p>
+<pre><code class="lang-go">timeout := <span class="hljs-built_in">make</span>(<span class="hljs-keyword">chan</span> <span class="hljs-keyword">bool</span>, <span class="hljs-number">1</span>)
+<span class="hljs-keyword">go</span> <span class="hljs-keyword">func</span>() {
+    time.Sleep(<span class="hljs-number">1e9</span>) <span class="hljs-comment">// one second</span>
+    timeout &lt;- <span class="hljs-literal">true</span>
+}()
+
+<span class="hljs-keyword">select</span> {
+<span class="hljs-keyword">case</span> &lt;- ch:
+    <span class="hljs-comment">// a read from ch has occurred</span>
+<span class="hljs-keyword">case</span> &lt;- timeout:
+    <span class="hljs-comment">// the read from ch has timed out</span>
+}
+</code></pre>
 
                                 
                                 </section>
@@ -1588,12 +1598,12 @@
 
             
                 
-                <a href="inserting_object_values.html" class="navigation navigation-prev " aria-label="Previous page: Inserting object values">
+                <a href="channel_client.html" class="navigation navigation-prev " aria-label="Previous page: Channel client">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="defining_functions.html" class="navigation navigation-next " aria-label="Next page: Defining functions">
+                <a href="channels_of_channels.html" class="navigation navigation-next " aria-label="Next page: Channels of channels">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1604,7 +1614,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Pipelines","level":"1.10.2","depth":2,"next":{"title":"Defining functions","level":"1.10.3","depth":2,"path":"templates/defining_functions.md","ref":"templates/defining_functions.md","articles":[]},"previous":{"title":"Inserting object values","level":"1.10.1","depth":2,"path":"templates/inserting_object_values.md","ref":"templates/inserting_object_values.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"3.0.x","theme":"default","variables":{},"plugins":["-sharing","katex@1.1.3","edit-link@2.0.x","github@2.0.x"],"pluginsConfig":{"edit-link":{"base":"https://github.com/tumregels/Network-Programming-with-Go/edit/master","label":"Edit"},"github":{"url":"https://github.com/tumregels/Network-Programming-with-Go"},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":14,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"toc":true},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"templates/pipelines.md","mtime":"2020-03-09T13:33:11.744Z","type":"markdown"},"gitbook":{"version":"3.0.3","time":"2020-03-09T14:42:51.086Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Handling Timeouts","level":"1.15.3","depth":2,"next":{"title":"Channels of channels","level":"1.15.4","depth":2,"path":"networkchannels/channels_of_channels.md","ref":"networkchannels/channels_of_channels.md","articles":[]},"previous":{"title":"Channel client","level":"1.15.2","depth":2,"path":"networkchannels/channel_client.md","ref":"networkchannels/channel_client.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"3.0.x","theme":"default","variables":{},"plugins":["-sharing","katex@1.1.3","edit-link@2.0.x","github@2.0.x"],"pluginsConfig":{"edit-link":{"base":"https://github.com/tumregels/Network-Programming-with-Go/edit/master","label":"Edit"},"github":{"url":"https://github.com/tumregels/Network-Programming-with-Go"},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":14,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"toc":true},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"networkchannels/handling_timeouts.md","mtime":"2020-03-09T13:33:11.744Z","type":"markdown"},"gitbook":{"version":"3.0.3","time":"2020-03-09T14:42:51.086Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
