@@ -1,20 +1,19 @@
 package main
 
 import (
-	"fmt"
-	"io"
-	"log"
-	"net/http"
-	"os"
-	"path"
-
 	"bytes"
+	"fmt"
 	"image"
 	"image/color"
 	"image/gif"
 	"image/jpeg"
 	"image/png"
+	"io"
 	"io/ioutil"
+	"log"
+	"net/http"
+	"os"
+	"path"
 	"strings"
 )
 
@@ -25,18 +24,18 @@ const (
 func uploadHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Method == "GET" {
 		str := `
-			<html>
-			<head>
-			<meta charset="utf-8">
-			<title>Upload</title>
-			</head>
-			<body>
-			<form method="POST" action="/upload" enctype="multipart/form-data">
-			Choose an image to upload: <input name="image" type="file" />
-			<input type="submit" value="Upload" />
-			</form>
-			</body>
-			</html>`
+                        <html>
+                        <head>
+                        <meta charset="utf-8">
+                        <title>Upload</title>
+                        </head>
+                        <body>
+                        <form method="POST" action="/upload" enctype="multipart/form-data">
+                        Choose an image to upload: <input name="image" type="file" />
+                        <input type="submit" value="Upload" />
+                        </form>
+                        </body>
+                        </html>`
 
 		io.WriteString(w, str)
 	}
@@ -86,18 +85,18 @@ func viewHandler(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	dstImage, err := greyImage(srcImage)
+	gImagePath, err := greyImage(srcImage)
 	if err != nil {
 		http.Error(w, err.Error(),
 			http.StatusInternalServerError)
 		return
 	}
 	w.Header().Set("Content-Type", "image")
-	http.ServeFile(w, r, dstImage)
+	http.ServeFile(w, r, gImagePath)
 }
 
-func greyImage(filepath string) (newPath string, err error) {
-	file, _ := ioutil.ReadFile(filepath)
+func greyImage(srcImage string) (newPath string, err error) {
+	file, _ := ioutil.ReadFile(srcImage)
 	buf := bytes.NewBuffer(file)
 	img, _, _ := image.Decode(buf)
 	bounds := img.Bounds()
@@ -114,16 +113,13 @@ func greyImage(filepath string) (newPath string, err error) {
 		}
 	}
 
-	fullName := path.Base(filepath)
-	fileSuffix := path.Ext(fullName)
-	filePrefix := fullName[0 : len(fullName)-len(fileSuffix)]
-	newPath = UPLOAD_DIR + "/" + filePrefix + "_grey" + fileSuffix
+	newPath = UPLOAD_DIR + "/" + "grey.jpg"
 	newFile, err := os.Create(newPath)
 	if err != nil {
 		return newPath, err
 	}
 	defer newFile.Close()
-	encode(fullName, newFile, newRgba)
+	encode(path.Base(srcImage), newFile, newRgba)
 	return newPath, nil
 }
 

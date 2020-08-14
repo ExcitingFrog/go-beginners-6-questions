@@ -11,7 +11,7 @@ func main() {
 	router.GET("/", func(c *gin.Context) {
 		c.String(http.StatusOK, "Hello World")
 	})
-	router.GET("/signup", func(c *gin.Context) {
+	router.GET("/upload", func(c *gin.Context) {
 		c.String(http.StatusOK, "please sign up")
 	})
 	router.Static("/ex", "./ex")
