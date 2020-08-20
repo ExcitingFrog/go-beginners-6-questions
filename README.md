@@ -1,4 +1,4 @@
-#介绍
+# 介绍
 go的几道练习题
 
 ## 第一题
@@ -19,7 +19,8 @@ go的几道练习题
 
 ## 第五题 
 使用colly爬取站点 http://tumregels.github.io/Network-Programming-with-Go/ 所有页面(在本地打开页面后展开的效果和服务器上差不多)
-[样例](https://ruilisi.github.io/golang-crawler-example/)
+
+别人写的完善的[样例](https://ruilisi.github.io/golang-crawler-example/)
 
 ## 第六题 
 建立一个http服务器，上传一个彩色图片，返回该彩色的黑白图片
